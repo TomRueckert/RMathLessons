@@ -1,6 +1,6 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Mathtest
+description : Example mathemtatics test
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -10,7 +10,7 @@ attachments :
 Given is a fuction \\(f(x) = ax+b\\), with two pairs of values for \\(a\\) and \\(b\\).
 
 *** =instructions
-- Calculate the intersection for $(a_1 = -3, b_1 = -1)$ and $(a_2 = -1, b_2 = -3)$.
+- Calculate the intersection for \\((a_1 = -3, b_1 = -1)\\) and \\((a_2 = -1, b_2 = -3)\\).
 
 *** =hint
 - to create a variable use `<-`
@@ -60,7 +60,7 @@ success_msg("Good work!")
 --- type:NormalExercise lang:r xp:100 skills:1 key:27e4552b3e
 ## Intersection 2
  
-You see a plot for the give fuction \\(f(x) = ax+b\\.
+You see a plot for the give fuction \\(f(x) = ax+b\\).
 
 *** =instructions
 - Please insert the intersection point.
@@ -97,6 +97,17 @@ x.PoI <- (b2-b1)/(a1-a2)
 y.PoI <- x.PoI*a1 + b1
 ```
 
+*** =sample_code
+```{r}
+# Create two variables x and y with equals to the solution
+# Create a variable x, equal to the solution of x
+
+
+# Create a variable y, equal to the solution of y
+
+```
+
+
 *** =solution
 ```{r}
 # Create two variables x and y with equals to the solution
@@ -122,3 +133,86 @@ test_error()
 
 success_msg("Good work!")
 ```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Mean, Median and Variance
+ 
+Given are 5 numbers, 18, 4, 1, -4 and 16.
+
+*** =instructions
+- Please calculate the mean, median and variance!
+- write it to 3 seperate variables
+
+*** =hint
+- try to use the console with commands like `mean()` :-)
+
+*** =sample_code
+```{r}
+# Mean as variable mean
+
+
+# Median as variable med
+
+
+# Variance as variable var
+
+
+```
+
+
+*** =solution
+```{r}
+# Mean as variable mean
+mean <- 7
+
+# Median as variable med
+med <- 4
+
+# Variance as variable var
+var <- 92
+
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+test_object("mean",
+            undefined_msg = "Make sure to define `mean`!",
+            incorrect_msg = "That is not the correct solution for `mean`!")
+test_object("med",
+            undefined_msg = "Make sure to define `med`!",
+            incorrect_msg = "That is not the correct solution for `med`!")
+test_object("var",
+            undefined_msg = "Make sure to define `var`!",
+            incorrect_msg = "That is not the correct solution for `var`!")
+
+test_error()
+
+success_msg("Good work!")
+```
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1
+## Fun Question
+
+What is the "Answer to the Ultimate Question of Life, the Universe, and Everything" ?
+
+
+*** =instructions
+- Douglas Adams don't tell us
+- 324354335434678
+- 42
+- ca. 10
+
+*** =hint
+Maybe you will find the answare at Wikipedia by looking for "The Hitchhiker's Guide to the Galaxy"
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+msg_bad <- "No, that is not the correct answer"
+msg_success <- "Yes, you are right!"
+test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success, msg_bad))
+```
+
+
