@@ -10,7 +10,7 @@ attachments :
 Given is a fuction \\(f(x) = ax+b\\), with two pairs of values for \\(a\\) and \\(b\\).
 
 *** =instructions
-- Calculate the intersection for \\((a_1 = -3, b_1 = -1)\\) and \\((a_2 = -1, b_2 = -3)\\).
+- Calculate the intersection for $$(a_1 = -3, b_1 = -1)$$ and $(a_2 = -1, b_2 = -3)$.
 
 *** =hint
 - to create a variable use `<-`
@@ -204,7 +204,7 @@ What is the "Answer to the Ultimate Question of Life, the Universe, and Everythi
 - ca. 10
 
 *** =hint
-Maybe you will find the answare at Wikipedia by looking for "The Hitchhiker's Guide to the Galaxy"
+Maybe you will find the answer at Wikipedia by looking for "The Hitchhiker's Guide to the Galaxy"
 
 *** =sct
 ```{r}
