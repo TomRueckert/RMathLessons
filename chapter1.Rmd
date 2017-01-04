@@ -45,15 +45,12 @@ y <- -4
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-test_function("str", args = "object",
-              not_called_msg = "You didn't call `str()`!",
-              incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
-
-test_object("good_movies")
-
-test_function("plot", args = "x")
-test_function("plot", args = "y")
-test_function("plot", args = "col")
+test_object("x",
+            undefined_msg = "Make sure to define `x`!",
+            incorrect_msg = "That is not the correct solution for `x`!")
+test_object("y",
+            undefined_msg = "Make sure to define `y`!",
+            incorrect_msg = "That is not the correct solution for `y`!")
 
 test_error()
 
@@ -120,5 +117,8 @@ test_object("x",
 test_object("y",
             undefined_msg = "Make sure to define `y`!",
             incorrect_msg = "That is not the correct solution for `y`!")
-success_msg("Great!")
+
+test_error()
+
+success_msg("Good work!")
 ```
