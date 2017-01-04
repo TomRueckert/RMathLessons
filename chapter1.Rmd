@@ -62,7 +62,7 @@ success_msg("Good work!")
 
 --- type:NormalExercise lang:r xp:100 skills:1
 ## Intersection 2
-
+ 
 You see a plot for the give fuction \\(f(x) = ax+b\\.
 
 *** =instructions
