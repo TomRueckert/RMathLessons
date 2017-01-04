@@ -134,7 +134,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:0a2883353e
 ## Mean, Median and Variance
  
 Given are 5 numbers, 18, 4, 1, -4 and 16.
@@ -191,7 +191,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:fa84755598
 ## Fun Question
 
 What is the "Answer to the Ultimate Question of Life, the Universe, and Everything" ?
