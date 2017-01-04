@@ -4,7 +4,7 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:60677f2f4c
 ## Intersection 1
 
 Given is a fuction \\(f(x) = ax+b\\), with two pairs of values for \\(a\\) and \\(b\\).
@@ -60,7 +60,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:27e4552b3e
 ## Intersection 2
  
 You see a plot for the give fuction \\(f(x) = ax+b\\.
