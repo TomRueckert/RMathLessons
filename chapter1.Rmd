@@ -10,7 +10,8 @@ attachments :
 Given is a fuction \\(f(x) = ax+b\\), with two pairs of values for \\(a\\) and \\(b\\).
 
 *** =instructions
-- Calculate the intersection for (a_1 = -3, b_1 = -1) and (a_2 = -1, b_2 = -3). 
+
+- Calculate the intersection for \\(f_1(x) = -3x-1\\) and \\(f_2(x) = -1x-3\\). 
 
 
 *** =hint
