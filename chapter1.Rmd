@@ -4,7 +4,7 @@ description : Example mathemtatics test
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:NormalExercise lang:r xp:100 skills:1 key:60677f2f4c
+--- type:NormalExercise lang:r xp:100 key:60677f2f4c
 ## Intersection 1
 
 Given is a fuction \\(f(x) = ax+b\\), with two pairs of values for \\(a\\) and \\(b\\). 
@@ -59,7 +59,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:27e4552b3e
+--- type:NormalExercise lang:r xp:100 key:27e4552b3e
 ## Intersection 2
  
 You see a plot for the give fuction \\(f(x) = ax+b\\).
@@ -136,7 +136,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:0a2883353e
+--- type:NormalExercise lang:r xp:100 key:0a2883353e
 ## Mean, Median and Variance
  
 Given are 5 numbers, 18, 4, 1, -4 and 16.
@@ -193,7 +193,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:fa84755598
+--- type:MultipleChoiceExercise lang:r xp:50 key:fa84755598
 ## Fun Question
 
 What is the "Answer to the Ultimate Question of Life, the Universe, and Everything" ?
